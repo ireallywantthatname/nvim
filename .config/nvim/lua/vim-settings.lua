@@ -40,3 +40,8 @@ vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 vim.keymap.set("n", "<leader>n", "<C-d>zz")
 vim.keymap.set("n", "<leader>N", "<C-u>zz")
 vim.keymap.set("n", "<leader>y", '"+y')
+vim.api.nvim_set_hl(0, "Normal", { bg = "NONE" })
+vim.api.nvim_set_hl(0, "NormalNC", { bg = "NONE" })
+vim.api.nvim_set_hl(0, "NeoTreeNormal", { bg = "NONE" })
+vim.api.nvim_set_hl(0, "NeoTreeNormalNC", { bg = "NONE" })
+
