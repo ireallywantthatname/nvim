@@ -21,6 +21,7 @@ return {
       lspconfig.clangd.setup({})
       lspconfig.pyright.setup({})
       lspconfig.jdtls.setup({})
+      lspconfig.ts_ls.setup({})
       vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
       vim.keymap.set('n', 'dg', vim.lsp.buf.definition, {})
       vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, {})
